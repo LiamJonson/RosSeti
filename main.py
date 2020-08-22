@@ -5,7 +5,6 @@ import xml.etree.cElementTree as pars
 import numpy as np
 
 dir = 'D:\PycharmProject\RosSeti\Sensors\\'
-cap = cv2.VideoCapture(dir+'\Индикатор цвета (силикагель).MP4')
 images = []
 annots = []
 ImgNameList = os.listdir(dir+'images')
